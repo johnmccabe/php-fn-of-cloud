@@ -16,4 +16,3 @@ class Handler
         return \Packaged\Figlet\Figlet::create($data);
     }
 }
- 
