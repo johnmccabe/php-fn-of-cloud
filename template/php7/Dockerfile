@@ -26,7 +26,9 @@ RUN addgroup -S app \
 
 # Copy function code to image
 WORKDIR /home/app
-COPY index.php php-extension.sh composer.* ./
+COPY index.php ./
+COPY php-extension.sh ./
+COPY composer.* ./
 COPY ./function ./function
 
 # Install PHP Extensions
