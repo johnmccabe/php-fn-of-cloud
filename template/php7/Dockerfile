@@ -28,7 +28,6 @@ RUN addgroup -S app \
 WORKDIR /home/app
 COPY index.php ./
 COPY php-extension.sh ./
-COPY composer.* ./
 COPY ./function ./function
 
 # Install PHP Extensions
