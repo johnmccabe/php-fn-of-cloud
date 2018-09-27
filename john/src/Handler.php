@@ -13,6 +13,6 @@ class Handler
      * @return string
      */
     public function handle(string $data): string {
-        return \Packaged\Figlet\Figlet::create($data + " yeoooow");
+        return \Packaged\Figlet\Figlet::create($data);
     }
 }
