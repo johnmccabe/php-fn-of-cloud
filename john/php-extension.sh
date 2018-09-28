@@ -3,11 +3,11 @@
 echo "Installing PHP extensions"
 # Add your extensions in here
 #docker-php-ext-install mysqli
-apk add --no-cache \
-        freetype-dev \
-        libjpeg-turbo-dev \
-        libpng-dev
+# apk add --no-cache \
+#         freetype-dev \
+#         libjpeg-turbo-dev \
+#         libpng-dev
 
-docker-php-ext-install -j$(nproc) iconv
-docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/
-docker-php-ext-install -j$(nproc) gd
+# docker-php-ext-install -j$(nproc) iconv
+# docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/
+# docker-php-ext-install -j$(nproc) gd
