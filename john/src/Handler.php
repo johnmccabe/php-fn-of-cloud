@@ -13,6 +13,7 @@ class Handler
      * @return
      */
     public function handle($data) {
-        return \Packaged\Figlet\Figlet::create($data);
+        // return \Packaged\Figlet\Figlet::create($data);
+        return \Packaged\Figlet\Figlet::create("HARDCODED");
     }
 }
