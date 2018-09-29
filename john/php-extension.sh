@@ -3,6 +3,7 @@
 echo "Installing PHP extensions"
 # Add your extensions in here
 #docker-php-ext-install mysqli
+# update
 apk add --no-cache \
         freetype-dev \
         libjpeg-turbo-dev \

@@ -14,6 +14,6 @@ class Handler
      */
     public function handle($data) {
         // return \Packaged\Figlet\Figlet::create($data);
-        return \Packaged\Figlet\Figlet::create("HARDCODED");
+        return \Packaged\Figlet\Figlet::create("Updated");
     }
 }
